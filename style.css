@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-image: url(./b3jpg.jpg);
+}
+first1{
+   
+    margin: 406px;
+
+    
+
+
+}
+
+    
+    
+
+.top{
+    
+    width: 50%;
+    height: 80%;
+    border-radius: 16px;
+    
+    font-size: 1.5em;
+    margin-left: 28%;
+    box-shadow: 3px 5px 15px grey;
+    padding-left: 20px;
+    padding-bottom: 25px;
+   
+
+}
+input{
+    
+    font-size: 0.9em;
+    padding: 10px;
+    border-radius: 12px;
+}
+strong{
+    padding: 25px 0px;
+}
+select{
+    font-size: 25px;
+    padding-right: 60px;
+    border-radius: 10px;
+}
+
+.m{
+    font-size: 21px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    padding:8px 18px;
+    border-radius:10px;
+    background: rgba(243, 242, 242, 0.87);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(68, 65, 65);
+
+}
+textarea{
+    width: 70%;
+    height: 70px;
+    border-radius: 10px;
+}
+.m{
+    width: 90px;
+    height: 15px;
+}
