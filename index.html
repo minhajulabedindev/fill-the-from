@@ -45,14 +45,18 @@
             <div><input class="m" type="number" placeholder="Day"> <input class="m" type="text" placeholder="Month">
                 <input class="m" type="number" placeholder="Year">
             </div><br><br>
-            <strong> select your gender</strong><br>
-            <input type="radio" name="gender" value="male"> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br><br>
-
-            <strong>select your language</strong><br>
-            <input type="checkbox" name="service" value="HTML">HTML<br>
-
-            <input type="checkbox" name="service" value="CSS">CSS<br><br>
+            <fieldset>
+                <legend>select your fav-language</legend>
+                <label for="html"><input type="radio" name="fav_language" value="HTML">
+                    HTML</label><br>
+                <label for="css"><input type="radio" id="css" name="fav_language" value="CSS">
+                    CSS</label>\br
+            </fieldset>
+            <fieldset>
+                <legend>select your gender</legend>
+                <input type="checkbox" name="service" value="HTML">Male<br>
+                <input type="checkbox" name="service" value="CSS">female
+            </fieldset> <br><br>
             <strong>File name: <br></strong>
             <input type="file"><br><br>
             <strong> Bio Data: <br></strong>
@@ -62,10 +66,10 @@
             <div class="nice">
                 <a target="blank" href="https://minhajulabedindev.github.io/i-love/">submit</a>
 
-                <input class="x" type="reset" value="reset all">
+                <input type="reset" value="resel all">
 
 
-            </div>
+
 
 
 
